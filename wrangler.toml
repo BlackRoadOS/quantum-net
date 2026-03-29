@@ -1,6 +1,5 @@
 name = "blackroadquantum-net-worker"
 main = "src/index.js"
 compatibility_date = "2024-12-01"
-routes = [
-  { pattern = "blackroadquantum.net/*", custom_domain = true }
-]
+# Custom domain is managed via CF dashboard route, not wrangler
+# Domain: blackroadquantum.net
